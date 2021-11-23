@@ -83,7 +83,7 @@ void main()
 
     send(clientSocket, SubsciptionAccepted.c_str(), SubsciptionAccepted.size() + 1, 0);
 
-
+    //перевіряє, яка саме операція була вибрана
     switch (oper) {
     case 1:
         do {

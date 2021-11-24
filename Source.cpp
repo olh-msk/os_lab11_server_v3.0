@@ -24,7 +24,7 @@ struct Info {
 	HANDLE th;
 	DWORD th_id;
 };
-
+//
 DWORD WINAPI SendData(LPVOID lpParameter) {
 	MailingInfo* p = (MailingInfo*)lpParameter;
 
